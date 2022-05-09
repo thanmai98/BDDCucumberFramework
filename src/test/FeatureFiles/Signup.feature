@@ -1,7 +1,12 @@
 Feature: Registration for PHPTravels site
 
-  Scenario: User should be able to register for PHPTravels site
+  @test
+  Scenario Outline: User should be able to register for PHPTravels site
 
-    Given User launches chrome browser
+    Given User launches required "<Browser>"
     Then User should navigate to PHPTravels site
-    And USer clicks on signup button
+    And User clicks on signup button
+
+    Examples:
+      | Browser |
+      | Chrome  |
