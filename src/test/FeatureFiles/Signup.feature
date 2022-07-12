@@ -10,3 +10,6 @@ Feature: Registration for PHPTravels site
     Examples:
       | Browser |
       | Chrome  |
+
+#  Scenario: User should be able to register for PHPTravels site
+#    Given User launches required "Chrome"
