@@ -46,10 +46,10 @@ public class Global {
             driver.manage().window().maximize();
 //            driver.get("https://www.phptravels.net");
         }
-
-        String sheetName = "SLSQ";
-        int rowCount = reader.getRowCount(sheetName);
-        System.out.println(">>>>"+reader.getCellData(sheetName,"Article Id's",rowCount));
+//
+//        String sheetName = "SLSQ";
+//        int rowCount = reader.getRowCount(sheetName);
+//        System.out.println(">>>>"+reader.getCellData(sheetName,"Article Id's",rowCount));
     }
 
     //To Launch the url in specific browser

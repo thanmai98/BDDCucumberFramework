@@ -7,8 +7,6 @@ Feature: Registration for PHPTravels site
     Then User should navigate to PHPTravels site
     And User clicks on signup button
 
-
-
     Examples:
       | Browser |
       | Chrome  |
